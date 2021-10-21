@@ -1,4 +1,4 @@
-package br.com;
+package Conteudo.com;
 
 public class Primitivos {
 // Separa 1 byte na memoria para a variavel. - min -128 max 127

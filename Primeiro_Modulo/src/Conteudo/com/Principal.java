@@ -1,6 +1,6 @@
 // Toda Classe Java Precisa Estar dentro de um PACOTE
 // ALT+SHIFT+ENTER
-package br.com;
+package Conteudo.com;
 
 public class Principal {
 //Metodo Main: Iniciar o codigo preciso deste ponto inicial

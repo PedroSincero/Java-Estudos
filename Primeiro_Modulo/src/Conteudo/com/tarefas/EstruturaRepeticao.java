@@ -1,4 +1,4 @@
-package br.com.tarefas;
+package Conteudo.com.tarefas;
 
 public class EstruturaRepeticao {
 //    for é determinado

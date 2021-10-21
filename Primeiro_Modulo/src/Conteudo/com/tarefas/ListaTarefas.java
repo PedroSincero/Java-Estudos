@@ -1,11 +1,10 @@
-package br.com.tarefas;
+package Conteudo.com.tarefas;
 
 import java.util.ArrayList;
 
 public class ListaTarefas {
 
     ArrayList<Tarefa> tarefas = new ArrayList<>();
-
     public void adicionar(Tarefa tarefa){
         if(tarefa != null && tarefa.obterTamanhoTarefa() <= 20) {
             tarefas.add(tarefa);

@@ -1,6 +1,6 @@
-package br.com;
+package Conteudo.com;
 // Public > Essa classe pode ser acessada por qual quer pacote
-import br.com.tarefas.ArrayTarefas;
+
 import br.com.tarefas.ListaTarefas;
 import br.com.tarefas.Tarefa;
 
@@ -9,6 +9,7 @@ public class Principal2 {
     public static void main(String[] args) {
 // Diferencial do 'print' e do 'println' é que o ln pula 1 linha.
         System.out.println("Minhas Tarefas");
+
         System.out.println("---------------------------------");
 //        ArrayTarefas tarefas = new ArrayTarefas(3);
         ListaTarefas tarefas = new ListaTarefas();
