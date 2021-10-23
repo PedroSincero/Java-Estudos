@@ -8,6 +8,19 @@ public class Aluno {
 
     private String nome;
 
+    public Aluno(String login, String cpf, String nome) {
+        this.nome = nome;
+        if(validateLogin(login)){
+            this.login = login;
+        }else {
+            System.out.println("Login Invalido");
+        }
+        this.cpf = cpf;
+    }
+
+    public void imprimirDados() {
+        System.out.println("Nome" + nome + ", CPF: " + cpf);
+    }
     public String getCpf() {
         return cpf;
     }
@@ -34,8 +47,7 @@ public class Aluno {
 
     private boolean validarCpf() { return this.cpf != null && this.cpf.length() == 13; }
 
-    private static boolean validateLogin(String login){
-            return login != null && !login.isEmpty() && login.length() < 20;
+    private boolean validateLogin(String login){
+            return login != null && !login.isEmpty() && login.length() < 20 && login.contains(nome);
         }
-    }
 }
